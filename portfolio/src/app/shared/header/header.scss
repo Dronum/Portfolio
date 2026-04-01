@@ -1,0 +1,25 @@
+@use "../../styles/variables.scss" as *;
+
+header {
+  align-items: center;
+  display: flex;
+  padding: 0px 100px 0px 100px;
+  background-color: $background_color;
+  color: white;
+  height: 100px;
+  width: 100%;
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+  }
+  .headercontent {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-right: 100px;
+  }
+}
