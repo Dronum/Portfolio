@@ -8,6 +8,7 @@ header {
   color: white;
   height: 100px;
   width: 100%;
+  
 
   .container {
     width: 100%;
@@ -15,11 +16,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
+    
   }
   .headercontent {
     display: flex;
     gap: 40px;
     align-items: center;
     padding-right: 100px;
+
   }
 }

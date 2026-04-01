@@ -1,0 +1,24 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.backgroundimages {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.backgroundheroshadow{
+    position: absolute;
+}
+
+.backgroundhero{
+    position: relative;
+    margin: 100px 0px 80px 47px;
+    width: 45vw;
+}
