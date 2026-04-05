@@ -1,6 +1,42 @@
 @use '../../styles/variables.scss' as *;
 
 
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+}
+
+
+.backgroundimages {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.backgroundheroshadow{
+    position: absolute;
+    left: -55px;
+    top: 105px;
+    width: 600px;
+}
+
+.backgroundhero{
+    position: relative;
+    margin: 100px 0px 80px 47px;
+}
+
+.backgroundborder{
+    display: flex;
+    position: absolute;
+    top: 375px;
+    width: 100%;
+}
+
+
+
 .hero{
     color: $fontcolor;
     text-align: center;
