@@ -4,24 +4,37 @@
   width: 100%;
   display: flex;
   justify-content: center;
+ }
 
-  > hero-container {
+
+.hero-container {
     position: relative;
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
   }
 
-  >.hero{
+
+  .hero {
     position: absolute;
     top: 180px;
-    left: 30%;
-    transform: translateX(-20%);
+    left: 50%;
+    transform: translateX(-50%);
     color: $fontcolor;
+    &.hero-text {
+      position: relative;
+      text-align: left;
+    }
+.herointro{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    transform: rotate(-50deg);
+    font-size: 64px;
 
-  }
 }
 
+  }
 
 
 .backgroundimages {
@@ -32,7 +45,7 @@
 
 .backgroundheroshadow {
   position: absolute;
-  left: -30px;
+  left: -55px;
   top: 105px;
   width: 600px;
 }
@@ -45,8 +58,8 @@
 .backgroundborder {
   position: absolute;
   top: 125px;
-  left: 20%;
-  transform: translateX(-20%);
+  left: 50%;
+  transform: translateX(-50%);
   width: 1920px;
 
   > img {
@@ -54,9 +67,4 @@
     height: auto;
     display: block;
   }
-}
-
-.hero {
-  color: $fontcolor;
-  text-align: center;
 }
