@@ -1,4 +1,4 @@
-@use '../../styles/variables.scss' as *;
+@use '../../styles/variables.scss' as var;
 
 .hero-wrapper {
   width: 100%;
@@ -50,7 +50,7 @@
   top: 180px;
   left: 55%;
   transform: translateX(-50%);
-  color: $fontcolor;
+  color: var.$fontcolor;
   &.hero-text {
     position: relative;
     text-align: left;
@@ -69,8 +69,25 @@
 
 .jobrole{
     font-size: 58px;
+    color: var.$secondaryfontcolor;
 }
 }
 
+.hero-btn {
+    background-color: var.$btncolor;
+    color: var.$fontcolor;
+    font-size: 23px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 20px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+    &:hover{
+      background-color: var.$secondaryfontcolor;
+    }
+}
 
