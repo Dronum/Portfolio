@@ -1,58 +1,62 @@
 @use '../../styles/variables.scss' as *;
 
-.hero-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.hero-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
->hero-container{
+  > hero-container {
     position: relative;
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
+  }
+
+  >.hero{
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    transform: translateX(-20%);
+    color: $fontcolor;
+
+  }
 }
 
-}
-
-
-
-.container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    max-width: 1920px;
-}
 
 
 .backgroundimages {
   position: relative;
-  max-width: 1920px;
   width: 100%;
-  margin: 0 auto;
+  min-height: 600px;
 }
 
-.backgroundheroshadow{
-    position: absolute;
-    left: -55px;
-    top: 105px;
-    width: 600px;
+.backgroundheroshadow {
+  position: absolute;
+  left: -30px;
+  top: 105px;
+  width: 600px;
 }
 
-.backgroundhero{
-    position: relative;
-    margin: 100px 0px 80px 47px;
+.backgroundhero {
+  position: relative;
+  margin: 100px 0px 80px 47px;
 }
 
-.backgroundborder{
-    display: flex;
-    position: absolute;
-    top: 375px;
+.backgroundborder {
+  position: absolute;
+  top: 125px;
+  left: 20%;
+  transform: translateX(-20%);
+  width: 1920px;
+
+  > img {
     width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
-
-
-.hero{
-    color: $fontcolor;
-    text-align: center;
+.hero {
+  color: $fontcolor;
+  text-align: center;
 }
