@@ -4,38 +4,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
- }
-
-
-.hero-container {
-    position: relative;
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-
-  .hero {
-    position: absolute;
-    top: 180px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: $fontcolor;
-    &.hero-text {
-      position: relative;
-      text-align: left;
-    }
-.herointro{
-    position: absolute;
-    left: 100px;
-    top: 50px;
-    transform: rotate(-50deg);
-    font-size: 64px;
-
 }
 
-  }
-
+.hero-container {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 .backgroundimages {
   position: relative;
@@ -68,3 +44,33 @@
     display: block;
   }
 }
+
+.hero {
+  position: absolute;
+  top: 180px;
+  left: 55%;
+  transform: translateX(-50%);
+  color: $fontcolor;
+  &.hero-text {
+    position: relative;
+    text-align: left;
+  }
+  .herointro {
+    position: absolute;
+    left: -100px;
+    top: 55px;
+    transform: rotate(-90deg);
+    font-size: 64px;
+  }
+
+.name {
+    font-size: 90px;
+}
+
+.jobrole{
+    font-size: 58px;
+}
+}
+
+
+
