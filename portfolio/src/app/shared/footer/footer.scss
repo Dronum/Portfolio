@@ -1,26 +1,31 @@
 @use '../../styles/variables.scss' as var;
 
 .content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
-
 
 .socialcontainer {
-    position: relative;
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.line{
-    background-color: var.$secondaryfontcolor;
-    height: 5px;
-    width: 150px;
+.line {
+  background-color: var.$secondaryfontcolor;
+  height: 5px;
+  width: 150px;
 }
 
-.links{
-    display: flex;
-    align-items: center;
+.sociallinks {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  &link {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
 }
