@@ -1,0 +1,26 @@
+@use '../../styles/variables.scss' as var;
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.socialcontainer {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.line{
+    background-color: var.$secondaryfontcolor;
+    height: 5px;
+    width: 150px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
