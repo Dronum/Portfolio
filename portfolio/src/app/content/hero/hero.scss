@@ -60,16 +60,18 @@
     top: 55px;
     transform: rotate(-90deg);
     font-size: 64px;
+    font-family: "Poppins-regular", sans-serif;;
   }
 
   .name {
-    font-size: 90px;
-    font-family: 'Poppins-regular';
+    font-size: 80px;
+    font-family: "Poppins-bold", sans-serif;;
   }
 
   .jobrole {
     font-size: 58px;
     color: var.$secondaryfontcolor;
+    font-family: "Poppins-bold", sans-serif;;
   }
 }
 
