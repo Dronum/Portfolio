@@ -1,1 +1,8 @@
 @use '../../styles/variables.scss' as var;
+
+section{
+    max-width: 1920px;
+    width: 100%;
+    color: white;
+    padding: 800px 40px;
+}
