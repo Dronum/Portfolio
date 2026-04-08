@@ -1,8 +1,16 @@
 @use '../../styles/variables.scss' as var;
 
-section{
-    max-width: 1920px;
-    width: 100%;
-    color: white;
-    padding: 800px 40px;
+section {
+  max-width: 1920px;
+  width: 100%;
+  color: white;
+  padding: 800px 40px;
+  margin: 150px auto 0;
+
+  > h1 {
+    font-size: 90px;
+    font-family: 'Poppins-bold', sans-serif;
+    color: var.$fontcolor;
+    margin-bottom: 35px;
+  }
 }
