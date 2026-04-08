@@ -1,9 +1,9 @@
 @use '../../styles/variables.scss' as var;
 
 section {
-  max-width: 1920px;
+  max-width: 1440px;
   width: 100%;
-  padding: 800px 40px;
+  padding-left: 100px;
   margin: 150px auto 0;
 
   > h1 {
