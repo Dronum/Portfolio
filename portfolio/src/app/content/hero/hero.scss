@@ -50,11 +50,11 @@
   left: 55%;
   transform: translateX(-50%);
   color: var.$fontcolor;
-  &.hero-text {
+  &-text {
     position: relative;
     text-align: left;
   }
-  .herointro {
+  &intro {
     position: absolute;
     left: -100px;
     top: 55px;
