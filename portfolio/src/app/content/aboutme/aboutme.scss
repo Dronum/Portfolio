@@ -3,7 +3,6 @@
 section {
   max-width: 1920px;
   width: 100%;
-  color: white;
   padding: 800px 40px;
   margin: 150px auto 0;
 
@@ -13,4 +12,31 @@ section {
     color: var.$fontcolor;
     margin-bottom: 35px;
   }
+}
+
+.aboutme-content {
+  font-size: 22px;
+  color: var.$fontcolor;
+  font-family: 'Poppins-regular', sans-serif;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.infobox{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 50px 0px 30px 0px;
+    font-family: "Poppins-regular", sans-serif;
+
+    >img{
+        width: 26px;
+        height: 32px;
+    }
+
+
+    >p{
+        font-size: 22px;
+        color: var.$fontcolor;
+    }
 }
