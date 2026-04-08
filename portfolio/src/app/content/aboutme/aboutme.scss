@@ -22,27 +22,52 @@ section {
   line-height: 2;
 }
 
-.infobox{
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    margin: 50px 0px 30px 0px;
-    font-family: "Poppins-regular", sans-serif;
+.infobox {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 50px 0px 30px 0px;
+  font-family: 'Poppins-regular', sans-serif;
 
-    >img{
-        width: 26px;
-        height: 32px;
-    }
+  > img {
+    width: 26px;
+    height: 32px;
+  }
 
-
-    >p{
-        font-size: 22px;
-        color: var.$fontcolor;
-    }
+  > p {
+    font-size: 22px;
+    color: var.$fontcolor;
+  }
 }
 
-.aboutme-content{
+.aboutme-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.aboutme-image {
+  display: flex;
+  align-items: center;
+}
+
+.aboutme-circle {
+  width: 453px;
+  height: 453px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid var.$btncolor;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.aboutme-line{
+  width: 270px;
+  height: 5px;
+  background: var.$btncolor;
 }
