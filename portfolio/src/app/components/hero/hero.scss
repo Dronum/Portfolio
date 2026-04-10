@@ -50,6 +50,7 @@
   left: 55%;
   transform: translateX(-50%);
   color: var.$fontcolor;
+  font-family: "Poppins-regular", sans-serif;
   &-text {
     position: relative;
     text-align: left;
@@ -60,7 +61,7 @@
     top: 55px;
     transform: rotate(-90deg);
     font-size: 64px;
-    font-family: "Poppins-regular", sans-serif;;
+    font-family: "Poppins-regular", sans-serif;
   }
 
   .name {
