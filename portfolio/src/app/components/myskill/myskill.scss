@@ -40,19 +40,20 @@
 
 
 .myskill-right{
-    
+    width: 40%;
 
 }
 
-.myskills-row{
+.myskill-row{
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
 .myskill-title{
     color: var.$fontcolor;
     font-family: 'Poppins-bold', sans-serif;
-    font-size: 90px;
+    font-size: 64px;
 }
 
 .purple-line{
