@@ -1,0 +1,40 @@
+@use '../../styles/variables.scss' as var;
+
+.myskills-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.myskills-container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.myskills-grid {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+}
+
+.myskill-language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+>img{
+    width: 60px;
+    height: 60px;
+}
+
+
+>p{
+    font-size: 20px;
+    color: var.$fontcolor;
+    font-family: 'Poppins-regular', sans-serif;
+}
+}
