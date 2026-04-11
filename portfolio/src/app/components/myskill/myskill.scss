@@ -63,4 +63,27 @@
   font-size: 20px;
   color: var.$fontcolor;
   font-family: 'Poppins-bold', sans-serif;
+  margin-bottom: 20px;
+}
+
+.myskill-desc-title {
+  font-size: 28px;
+  font-family: 'Poppins-bold', sans-serif;
+  color: var.$fontcolor;
+  margin-bottom: 20px;
+}
+
+.myskills-btn{
+  margin-top: 20px;
+  background-color: var.$btncolor;
+  font-size: 20px;
+  color: var.$fontcolor;
+  padding: 30px 80px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+
+  &:hover{
+    background-color: var.$secondaryfontcolor;
+  }
 }
