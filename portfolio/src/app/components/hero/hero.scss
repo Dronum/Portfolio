@@ -1,9 +1,11 @@
 @use '../../styles/variables.scss' as var;
+
 .hero-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 120px;
+  font-family: 'Poppins-bold' sans-serif;
 }
 
 .hero-container {
@@ -15,68 +17,52 @@
   position: relative;
 }
 
-.backgroundimages {
+.hero-left {
   position: relative;
-  width: 100%;
-  min-height: 600px;
 }
 
-.backgroundheroshadow {
+.hero-shadow {
   position: absolute;
-  left: -55px;
-  top: 105px;
   width: 600px;
+  left: -80px;
+  top: 40px;
+  z-index: 1;
 }
 
-.backgroundhero {
+.hero-img {
   position: relative;
-  margin: 100px 0px 80px 47px;
+  width: 500px;
+  z-index: 2;
+  margin-bottom: 50px;
 }
 
-.backgroundborder {
-  position: absolute;
-  top: 125px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1920px;
-
-  > img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  align-items: center;
 }
 
-.hero {
+.hero-intro {
   position: absolute;
-  top: 180px;
-  left: 55%;
-  transform: translateX(-50%);
+  left: -130px;
+  top: 40px;
+  transform: rotate(-90deg);
+  font-size: 80px;
+
   color: var.$fontcolor;
-  font-family: 'Poppins-regular', sans-serif;
-  &-text {
-    position: relative;
-    text-align: left;
-  }
-  &intro {
-    position: absolute;
-    left: -100px;
-    top: 55px;
-    transform: rotate(-90deg);
-    font-size: 64px;
-    font-family: 'Poppins-regular', sans-serif;
-  }
+}
 
-  .name {
-    font-size: 80px;
-    font-family: 'Poppins-bold', sans-serif;
-  }
+.hero-name {
+  font-size: 69px;
 
-  .jobrole {
-    font-size: 58px;
-    color: var.$secondaryfontcolor;
-    font-family: 'Poppins-bold', sans-serif;
-  }
+  color: var.$fontcolor;
+}
+
+.hero-role {
+  font-size: 58px;
+  color: var.$secondaryfontcolor;
 }
 
 .hero-btn {
@@ -87,10 +73,8 @@
   border-radius: 8px;
   cursor: pointer;
   margin-top: 25px;
-  padding: 20px 35px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 14px 28px;
+  width: fit-content;
 
   &:hover {
     background-color: var.$secondaryfontcolor;
