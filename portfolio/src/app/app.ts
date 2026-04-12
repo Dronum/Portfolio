@@ -7,7 +7,7 @@ import { Aboutme } from "./components/aboutme/aboutme";
 import { Myskill } from './components/myskill/myskill';
 import { Portfolio } from './components/portfolio/portfolio';
 import { Feedback } from './components/feedback/feedback';
-import { Contact } from './compnents/contact/contact';
+import { Contact } from './components/contact/contact';
 import { Footerend } from './components/footerend/footerend';
 
 
