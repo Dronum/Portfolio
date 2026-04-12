@@ -8,10 +8,11 @@
 
   .myskills-container {
     max-width: 1440px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    
   }
   .myskills-grid {
     width: 55%;
