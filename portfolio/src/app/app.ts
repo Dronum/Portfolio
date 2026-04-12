@@ -5,10 +5,11 @@ import { Hero } from './components/hero/hero';
 import { Footer } from "./shared/footer/footer";
 import { Aboutme } from "./components/aboutme/aboutme";
 import { Myskill } from './components/myskill/myskill';
+import { Portfolio } from './components/portfolio/portfolio';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill],
+  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
