@@ -5,6 +5,8 @@ header {
   color: white;
   height: 100px;
   width: 100%;
+  font-size: 23px;
+  font-family: 'Poppins-regular', sans-serif;
 
   .header-wrapper {
     max-width: 1440px;
@@ -25,5 +27,37 @@ header {
     display: flex;
     gap: 40px;
     align-items: center;
+  }
+
+  .headercontent a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 23px;
+
+    &:hover {
+      color: var.$btncolor;
+    }
+  }
+}
+
+.language-switch {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  .lang-btn {
+    width: 45px;
+    height: 32px;
+    border-radius: 20%;
+    border: 2px solid var.$btncolor;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var.$btncolor;
+    }
   }
 }
