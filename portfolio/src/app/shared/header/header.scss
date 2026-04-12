@@ -7,7 +7,9 @@ header {
   width: 100%;
   font-size: 23px;
   font-family: 'Poppins-regular', sans-serif;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   .header-wrapper {
     max-width: 1440px;
     margin: auto;
