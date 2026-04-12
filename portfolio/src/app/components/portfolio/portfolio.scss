@@ -6,36 +6,82 @@
   justify-content: center;
   padding: 120px 0;
 
-  &-content {
+  .portfolio-content {
     max-width: 1440px;
     width: 100%;
   }
 
-  &-title {
+  .portfolio-title {
     font-size: 90px;
     font-family: 'Poppins-bold', sans-serif;
     color: var.$fontcolor;
   }
 
-  &-subtitle{
+  .portfolio-subtitle {
     font-size: 20px;
     color: var.$fontcolor;
   }
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 
-.projects{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-
-
-    &card{
+  .project-card {
     display: flex;
     align-items: center;
     gap: 30px;
+  }
 }
 
-
+.project-card.project-left {
+  &-info {
+    text-align: right;
+  }
 }
 
+.project-card.project-right {
+  flex-direction: row-reverse;
+  &-info {
+    text-align: right;
+  }
+}
+
+.project-title {
+  font-size: 32px;
+  color: var.$secondaryfontcolor;
+  font-family: 'Poppins-bold', sans-serif;
+  margin-bottom: 10px;
+}
+
+.project-language {
+  color: var.$btncolor;
+  font-family: 'Poppins-regular', sans-serif;
+  font-size: 23px;
+}
+
+.project-desc {
+  font-size: 20px;
+  color: var.$fontcolor;
+  margin-bottom: 30px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 20px;
+
+  .btn {
+    background-color: var.$btncolor;
+    color: var.$fontcolor;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var.$secondaryfontcolor;
+    }
+  }
+}
