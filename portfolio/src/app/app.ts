@@ -7,10 +7,11 @@ import { Aboutme } from "./components/aboutme/aboutme";
 import { Myskill } from './components/myskill/myskill';
 import { Portfolio } from './components/portfolio/portfolio';
 import { Feedback } from './components/feedback/feedback';
+import { Contact } from './compnents/contact/contact';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio,Feedback],
+  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio,Feedback,Contact],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
