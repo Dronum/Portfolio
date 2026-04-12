@@ -8,10 +8,12 @@ import { Myskill } from './components/myskill/myskill';
 import { Portfolio } from './components/portfolio/portfolio';
 import { Feedback } from './components/feedback/feedback';
 import { Contact } from './compnents/contact/contact';
+import { Footerend } from './components/footerend/footerend';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio,Feedback,Contact],
+  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio,Feedback,Contact,Footerend],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
