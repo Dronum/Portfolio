@@ -6,10 +6,11 @@ import { Footer } from "./shared/footer/footer";
 import { Aboutme } from "./components/aboutme/aboutme";
 import { Myskill } from './components/myskill/myskill';
 import { Portfolio } from './components/portfolio/portfolio';
+import { Feedback } from './components/feedback/feedback';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio],
+  imports: [RouterOutlet, Header, Hero, Footer, Aboutme,Myskill,Portfolio,Feedback],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
