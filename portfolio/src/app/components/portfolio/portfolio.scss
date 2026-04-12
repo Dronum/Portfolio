@@ -1,3 +1,41 @@
+@use '../../styles/variables.scss' as var;
+
 .portfolio {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+
+  &-content {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 90px;
+    font-family: 'Poppins-bold', sans-serif;
+    color: var.$fontcolor;
+  }
+
+  &-subtitle{
+    font-size: 20px;
+    color: var.$fontcolor;
+  }
 }
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+
+    &card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+}
+
