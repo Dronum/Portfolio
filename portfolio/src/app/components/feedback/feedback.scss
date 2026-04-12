@@ -1,0 +1,26 @@
+.testimonials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+
+  &-content {
+    max-width: 800px;
+    display: flex;
+  }
+}
+
+.slide-wrapper {
+  position: relative;
+  width: 100%;
+}
+.slide-active {
+display: block;
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
