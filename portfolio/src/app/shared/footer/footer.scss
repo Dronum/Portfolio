@@ -4,6 +4,7 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  font-family: 'Poppins-regular', sans-serif;
 }
 
 .socialcontainer {
@@ -29,8 +30,7 @@
   }
 }
 
-p{
-    color: var.$fontcolor;
-    font-size: 25px;
-    font-family: 'Poppins-regular';
+p {
+  color: var.$fontcolor;
+  font-size: 25px;
 }

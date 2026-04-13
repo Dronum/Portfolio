@@ -50,16 +50,19 @@
 
 .hero-name {
   font-size: 69px;
+  font-family: 'Poppins-bold', sans-serif;
 
   color: var.$fontcolor;
 }
 
 .hero-role {
+  font-family: 'Poppins-bold', sans-serif;
   font-size: 58px;
   color: var.$secondaryfontcolor;
 }
 
 .hero-btn {
+  font-family: 'Poppins-regular', sans-serif;
   background-color: var.$btncolor;
   color: var.$fontcolor;
   font-size: 23px;
