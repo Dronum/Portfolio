@@ -19,16 +19,15 @@
     margin-bottom: 20px;
   }
 
-.title-line{
-  width: 70px;
-  height: 5px;
-}
+  .title-line {
+    width: 70px;
+    height: 5px;
+  }
 
-.title-line2{
-  width: 800px;
-  height: 5px;
-}
-
+  .title-line2 {
+    width: 800px;
+    height: 5px;
+  }
 
   .portfolio-title {
     font-size: 90px;
@@ -83,6 +82,7 @@
 }
 
 .project-desc {
+  font-family: 'Poppins-regular', sans-serif;
   font-size: 20px;
   color: var.$fontcolor;
   margin-bottom: 30px;
@@ -93,6 +93,7 @@
   gap: 20px;
 
   .btn {
+    font-family: 'Poppins-regular', sans-serif;
     background-color: var.$btncolor;
     color: var.$fontcolor;
     padding: 14px 28px;
