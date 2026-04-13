@@ -5,29 +5,54 @@
         <div class="testimonial-content">
           <div class="testimonial-box">
             <p class="testimonial-text">
-              Michael really kept the team together with his great organization and clear
-              communication. We wouldn't have got this far without his commitment.
+              {{ testimonials[currentTestimonial].detail }}
             </p>
-            <p class="testimonial-author">V. Schuster - Team Partner</p>
+            <p class="testimonial-author">{{ testimonials[currentTestimonial].name }}</p>
           </div>
 
           <div class="image-line-group">
-            <img src="assets/feedback1.png" class="testimonial-image" alt="Person" />
+            <img
+              [src]="testimonials[currentTestimonial].imageSrc"
+              class="testimonial-image"
+              alt="Person"
+            />
             <img src="assets/purpleline.png" class="purpleline" alt="purpleline" />
           </div>
         </div>
       </div>
-    </div>
-    <div class="testimonial-navigation">
-      <img src="assets/leftarrow.png" class="arrow arrow-left" />
+      <div class="testimonial-navigation">
+        <img
+          src="assets/leftarrow.png"
+          class="arrow arrow-left"
+          (click)="activeTestimonial('prev')"
+        />
 
-      <div class="dots">
-        <div class="dot active"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+        <div class="dots">
+          <img
+            class="dot-img"
+            [src]="testimonials[0].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
+            (click)="currentTestimonial = 0"
+          />
+
+          <img
+            class="dot-img"
+            [src]="testimonials[1].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
+            (click)="currentTestimonial = 1"
+          />
+
+          <img
+            class="dot-img"
+            [src]="testimonials[2].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
+            (click)="currentTestimonial = 2"
+          />
+        </div>
+
+        <img
+          src="assets/rightarrow.png"
+          class="arrow arrow-right"
+          (click)="activeTestimonial('next')"
+        />
       </div>
-
-      <img src="assets/rightarrow.png" class="arrow arrow-right" />
     </div>
   </div>
 </section>

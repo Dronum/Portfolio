@@ -33,19 +33,20 @@
   padding: 40px;
   width: 55%;
   border-radius: 12px;
+  min-height: 225px;
 }
 
 .testimonial-text {
   font-size: 22px;
   margin-bottom: 20px;
   color: var.$fontcolor;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
 }
 
 .testimonial-author {
   font-size: 20px;
   color: var.$fontcolor;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
 }
 
 .image-line-group {
@@ -53,13 +54,9 @@
   align-items: center;
 }
 
-
-.purpleline{
+.purpleline {
   width: 150px;
 }
-
-
-
 
 .testimonial-image {
   width: 180px;
@@ -74,6 +71,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-top: 40px;
 }
 
 .arrow {
@@ -88,12 +86,4 @@
 .dot {
   width: 14px;
   height: 14px;
-  border-radius: 50%;
-  background-color: var.$secondaryfontcolor;
-  opacity: 0.4;
-}
-
-.dot.active {
-  opacity: 1;
-  background-color: var.$btncolor;
 }
