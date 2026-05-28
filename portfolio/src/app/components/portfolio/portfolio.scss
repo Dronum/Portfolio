@@ -68,6 +68,14 @@
   z-index: 0;
 }
 
+.feedback-shadow {
+  position: absolute;
+  top: 105px;
+  right: 0px;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .project-card.project-left {
   &-info {
     text-align: right;
