@@ -5,6 +5,16 @@
   width: 100%;
   padding-left: 100px;
   margin: 150px auto 0;
+  position: relative;
+
+  .aboutme-shadow {
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    width: 600px;
+    pointer-events: none;
+    z-index: -1;
+  }
 
   > h1 {
     font-size: 90px;

@@ -77,3 +77,12 @@
     background-color: var.$secondaryfontcolor;
   }
 }
+
+
+.scroll-down {
+  position: absolute;
+  right: 0;
+  top: 105%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
