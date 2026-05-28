@@ -4,6 +4,7 @@
       <div class="slide-active">
         <div class="testimonial-content">
           <div class="testimonial-box">
+            <img class="quote-img" src="assets/quote.png" alt="" />
             <p class="testimonial-text">
               {{ testimonials[currentTestimonial].detail }}
             </p>
@@ -21,37 +22,13 @@
         </div>
       </div>
       <div class="testimonial-navigation">
-        <img
-          src="assets/leftarrow.png"
-          class="arrow arrow-left"
-          (click)="activeTestimonial('prev')"
-        />
-
+        <img src="assets/leftarrow.png" class="arrow arrow-left" (click)="activeTestimonial('prev')" />
         <div class="dots">
-          <img
-            class="dot-img"
-            [src]="testimonials[0].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
-            (click)="currentTestimonial = 0"
-          />
-
-          <img
-            class="dot-img"
-            [src]="testimonials[1].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
-            (click)="currentTestimonial = 1"
-          />
-
-          <img
-            class="dot-img"
-            [src]="testimonials[2].display ? 'assets/greendot.png' : 'assets/purpledot.png'"
-            (click)="currentTestimonial = 2"
-          />
+          <img class="dot-img" [src]="testimonials[0].display ? 'assets/greendot.png' : 'assets/purpledot.png'" (click)="currentTestimonial = 0" />
+          <img class="dot-img" [src]="testimonials[1].display ? 'assets/greendot.png' : 'assets/purpledot.png'" (click)="currentTestimonial = 1" />
+          <img class="dot-img" [src]="testimonials[2].display ? 'assets/greendot.png' : 'assets/purpledot.png'" (click)="currentTestimonial = 2" />
         </div>
-
-        <img
-          src="assets/rightarrow.png"
-          class="arrow arrow-right"
-          (click)="activeTestimonial('next')"
-        />
+        <img src="assets/rightarrow.png" class="arrow arrow-right" (click)="activeTestimonial('next')" />
       </div>
     </div>
   </div>

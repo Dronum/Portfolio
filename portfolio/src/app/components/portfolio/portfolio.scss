@@ -63,16 +63,14 @@
 .portfolio-shadow {
   position: absolute;
   top: 75%;
-  left: -200px;
-  transform: translateY(-50%);
-  pointer-events: none;
+  left: -240px;
   z-index: 0;
 }
 
 .feedback-shadow {
   position: absolute;
   top: 180px;
-  right: 0px;
+  right: -240px;
   pointer-events: none;
   z-index: 0;
 }
