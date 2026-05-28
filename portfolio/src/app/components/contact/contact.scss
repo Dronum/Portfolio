@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding: 0 240px;
 
   .contact-shadow {
     position: absolute;
@@ -65,6 +66,13 @@
   font-size: 20px;
   font-family: 'Poppins-regular', sans-serif;
   color: var.$fontcolor;
+  margin-top: 25px;
+}
+
+.contact-highlight {
+  color: var.$fontcolor;
+  font-family: 'Poppins-bold', sans-serif;
+  font-size: 30px;
 }
 
 .contact-form {
@@ -133,10 +141,6 @@ textarea {
   &:hover {
     background: var.$btncolor;
   }
-}
-
-span {
-  color: var.$secondaryfontcolor;
 }
 
 .checkbox-custom {
