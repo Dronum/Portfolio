@@ -8,8 +8,9 @@
   position: relative;
 
   .myskills-container {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
+    padding: 0 240px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -20,7 +21,7 @@
   .myskill-shadow {
     position: absolute;
     top: 150%;
-    left: -50px;
+    left: 0px;
     transform: translateY(-50%);
     pointer-events: none;
     z-index: 0;
@@ -58,6 +59,10 @@
   width: 40%;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
 
   .myskill-row {
     display: flex;
@@ -65,13 +70,16 @@
     gap: 12px;
     margin-bottom: 20px;
   }
+
   .myskill-title {
     color: var.$fontcolor;
     font-family: 'Poppins-bold', sans-serif;
     font-size: 64px;
+    white-space: nowrap;
   }
+
   .purple-line {
-    width: 240px;
+    width: 80px;
     height: 5px;
     background-color: var.$secondaryfontcolor;
     border-radius: 1px;
@@ -93,7 +101,7 @@
 }
 
 .myskills-btn {
-  margin-top: 30px;
+  margin-top: 50px;
   background-color: var.$btncolor;
   font-size: 22px;
   color: var.$fontcolor;

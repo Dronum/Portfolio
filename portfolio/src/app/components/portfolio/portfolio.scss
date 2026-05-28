@@ -7,8 +7,9 @@
   padding: 120px 0;
 
   .portfolio-content {
-    max-width: 1440px;
+    max-width: 1920px;
     width: 100%;
+    padding: 0 240px;
   }
 
   .portfolio-title-line {
@@ -62,7 +63,7 @@
 .portfolio-shadow {
   position: absolute;
   top: 75%;
-  left: -50px;
+  left: -200px;
   transform: translateY(-50%);
   pointer-events: none;
   z-index: 0;
@@ -70,10 +71,15 @@
 
 .feedback-shadow {
   position: absolute;
-  top: 105px;
+  top: 180px;
   right: 0px;
   pointer-events: none;
   z-index: 0;
+}
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .project-card.project-left {
@@ -84,7 +90,7 @@
 
 .project-card.project-right {
   flex-direction: row-reverse;
-  &-info {
+  .project-info {
     text-align: right;
   }
 }

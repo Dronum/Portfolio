@@ -9,17 +9,19 @@
 }
 
 .hero-container {
-  max-width: 1440px;
+  max-width: 1920px;
   width: 100%;
+  padding: 0 240px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero-shadow {
   position: absolute;
   width: 600px;
-  left: -80px;
+  left: 145px;
   top: 40px;
   z-index: 1;
 }
