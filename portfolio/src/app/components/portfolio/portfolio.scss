@@ -55,7 +55,17 @@
   .project-card {
     display: flex;
     align-items: center;
+    position: relative;
   }
+}
+
+.portfolio-shadow {
+  position: absolute;
+  top: 75%;
+  left: -50px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .project-card.project-left {
